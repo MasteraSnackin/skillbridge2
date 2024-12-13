@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ChevronRight, Globe, Shield } from "lucide-react";
+import { ChevronRight, Shield, Globe } from "lucide-react";
 
 export function Hero() {
   return (
@@ -14,7 +14,7 @@ export function Hero() {
           The Future of Freelancing is Decentralized
         </h1>
         <p className="mt-6 animate-fade-up text-lg leading-8 text-muted-foreground delay-100">
-          Experience secure, instant payments and transparent collaboration through blockchain technology. Connect with global opportunities while eliminating trust barriers and high fees.
+          Built on Stellar blockchain with Soroban smart contracts, Skillbridge revolutionizes freelancing with secure escrow payments, instant global transactions, and transparent dispute resolution. Connect with opportunities worldwide while eliminating trust barriers and high fees.
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <Button size="lg" className="animate-fade-up delay-200">
