@@ -1,4 +1,4 @@
-import { Shield, DollarSign, Globe, Scale, LightningBolt, Handshake } from "lucide-react";
+import { Shield, DollarSign, Globe, Scale, Zap, Handshake } from "lucide-react";
 import { FeatureCard } from "./FeatureCard";
 
 export function Features() {
@@ -22,7 +22,7 @@ export function Features() {
           <FeatureCard
             title="Instant Global Payments"
             description="Receive payments within seconds, not days, with minimal fees using Stellar's fast blockchain network."
-            icon={<LightningBolt className="h-6 w-6" />}
+            icon={<Zap className="h-6 w-6" />}
           />
           <FeatureCard
             title="Fair Dispute Resolution"
